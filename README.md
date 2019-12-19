@@ -5,7 +5,7 @@ This was an tool that I wrote back during my time at Anirevo (anime convention i
 
 The tool takes a CSV file of approved panels (in this case, "idols.csv" since the last file used was a spreadsheet for idol groups), in which the fields are tailored to suit the CSV file obtained from the Wordpress site for the panelist application form.
 
-The tool then goes through the list of approved panels, creates a "profile" for each panelist (and if there is one, co-panelist) containing the following below, and writes it to another CSV file:
+The tool then goes through the list of approved panels, creates a "profile" for each panelist (and if there is one, co-panelist) containing the following below, and writes it to another CSV file in alphabetical order:
 
 - First and Last Name
 - Email
@@ -14,4 +14,6 @@ The tool then goes through the list of approved panels, creates a "profile" for 
 - Badge Number
 - Reimbursement Obtained (either 50% or 100%)
 
-The only limitation is that the script does not consider those eligible for a free pass (subjective to the director himself), and assumes that all panelists in the file are fan panelists eligible for a reimbursement. As the main intent was to get most of the pesky data entry out of the way, this can be resolved by manually replacing their reimbursement rate cell with "FREE BADGE" or something (which is nearly impossible to get wrong compared to a phone number or a badge number). 
+The only limitation is that the script does not consider those eligible for a free pass (subjective to the director himself), and assumes that all panelists in the file are fan panelists eligible for a reimbursement. 
+
+As the main intent was to get the pesky data entry out of the way, this can be resolved by manually replacing their reimbursement rate cell with "FREE BADGE" or something (which is nearly impossible to get wrong compared to a badge number). 
