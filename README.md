@@ -1,11 +1,11 @@
 # Anirevo-Panelist-Extractor
 Anirevo Panelist Extractor
 
-This was an tool that I wrote back during my time at Anirevo (anime convention in Vancouver, BC) to help automate the compilation and badge compensation process of approved panelists during the Summer 2019 intake, due to the tedious nature of the former if done by hand. This was also written with intention to use for future intakes, although I resigned from the staff before I was able to reuse the tool. 
+This was a tool that I wrote back during my time at Anirevo (anime convention in Vancouver, BC) after I was asked by my programming director to compile a list of all approved panelists and performers, their contact info, and their badge reimbursement rate for our vice chair. I had plans to reuse this for future intakes, although I resigned from the staff before I could do so. 
 
-The tool takes a CSV file of approved panels (in this case, "idols.csv" since the last file used was a spreadsheet for idol groups), in which the fields are tailored to suit the CSV file obtained from the Wordpress site for the panelist application form.
+The tool takes a CSV file of approved panels (in this case, "idols.csv" since the last file used was a spreadsheet for idol groups), in which the fields are tailored to suit the CSV file obtained from the Wordpress site for the panelist application form. 
 
-The tool then goes through the list of approved panels, creates a "profile" for each panelist (and if there is one, co-panelist) containing the following below, and writes it to another CSV file in alphabetical order:
+It then goes through the list of approved panels, creates a "profile" for each panelist (and if there is one, co-panelist) containing the following below, and writes it to another CSV file in alphabetical order:
 
 - First and Last Name
 - Email
