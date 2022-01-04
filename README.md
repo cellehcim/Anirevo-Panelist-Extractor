@@ -31,10 +31,11 @@ As the end goal was to get the pesky data entry out of the way, this can be reso
 
 As this was written back following Term 1 at BCIT (ie. basic programming), there's a couple things that I could have improved on now that I've learned more programming concepts following my departure. In no particular order:
 1. Use Pandas to process the files, so I don't have to convert .xlsx files into .csv and back again.
-2. 3. Create separate variables for the columns, so I can easily reassign the values should I make changes to the main form on the Anirevo website. 
+2. Create separate variables for the columns, so I can easily reassign the values should I make changes to the main form on the Anirevo website. 
 3. Use command args to take the name of the file being converted, so I don't have to hard-code that file in or rely on an input() function.
 4. Possibly turn this into a GUI for anyone who's not capable of code, should I leave Anirevo.
-5. Remove the "get" functions, since I realized that it doesn't do much in Python (compared to Java). 
+5. Write cleaner code, so someone within the department (or even within our sister con, International Fan Festival Toronto) can mantain or even upgrade it. 
+6. Remove the "get" functions, since I realized that it doesn't do much in Python (compared to Java). 
 
 ## The Future
 
